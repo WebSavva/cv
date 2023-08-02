@@ -1,7 +1,7 @@
 {
   "name": "@websavva/cv",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "author": {
     "name": "WebSavva",
@@ -11,6 +11,7 @@
     "dev": "nuxi dev",
     "build": "nuxi generate",
     "postinstall": "nuxt prepare",
+    "release": "standard-version",
     "release:patch": "pnpm run release --release-as patch",
     "release:minor": "pnpm run release --release-as minor",
     "release:major": "pnpm run release --release-as major"
