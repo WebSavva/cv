@@ -7,6 +7,17 @@ export default defineNuxtConfig({
     'nuxt-icon',
   ],
 
+  app: {
+    head: {
+      script: [
+        {
+          innerHTML: 'document.body.style.zoom = "75%";',
+          tagPosition: 'bodyClose',
+        }
+      ]
+    }
+  },
+
   googleFonts: {
     base64: true,
     families: {
