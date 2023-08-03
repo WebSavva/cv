@@ -56,7 +56,7 @@
           Studwork
         </div>
 
-        <div class="text-[25px] font-serif font-light">2021 - current</div>
+        <div class="text-[25px] font-serif font-light">2021 - ongoing</div>
       </div>
 
       <div class="text-[23px] font-light mt-2">Middle Frontend Developer</div>
